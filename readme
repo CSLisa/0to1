@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: hs
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/huangsheng?createDatabaseIfNotExist=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&zeroDateTimeBehavior=convertToNull
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+spring.jpa.database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+https://www.cnblogs.com/QingXiaxu/p/12246091.html
+https://blog.csdn.net/qq_35447305/article/details/53327173
