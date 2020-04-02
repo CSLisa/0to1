@@ -1,0 +1,19 @@
+public class AAd  extends Thread{
+    public static void main(String[] args) {
+        AAd myThread1 = new AAd();
+        AAd myThread2 = new AAd();
+        AAd myThread3 = new AAd();
+        AAd myThread4 = new AAd();
+        myThread1.start();
+        myThread2.start();
+        myThread3.start();
+        myThread4.start();
+    }
+
+    public void run() {
+        int i = 0;
+        while (true) {
+            i++;
+        }
+    }
+}
